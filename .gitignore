@@ -1,9 +1,0 @@
-__pycache__/
-*.py[cod]
-.blender/
-*.blend1
-*.blend2
-*.ma
-*.mb
-*.obj
-.DS_Store
