@@ -1,7 +1,16 @@
 ﻿# Sketch Bloom
 
-Sketch Bloom is a Maya script that turns drawings into 3D tubes, curves, and filled shapes. For Week 9, I added a Low Poly option to make lighter meshes and show their face counts.
-
+Sketch Bloom is a custom Python-based 3D modeling and drawing tool developed for Autodesk Maya. It provides an interactive workspace where users can sketch shapes and generate polygon meshes, edit geometry, create objects from presets, and perform modeling operations without relying entirely on Maya's traditional modeling workflow.
+The tool includes:
+- Freehand Drawing: Sketch shapes and automatically convert them into 3D meshes.
+- Live Modeling: See geometry update in real time while drawing or editing.
+- Shape Presets: Generate geometric shapes, animals, nature-inspired designs, and everyday objects.
+- 3D Geometry Controls: Adjust thickness, depth, subdivisions, polygon density, and smoothness.
+- Surface Drawing: Draw directly onto existing 3D models.
+- Retopology: Automatically reorganize mesh topology and adjust polygon counts.
+- Object Assembly: Combine or fuse multiple meshes into one object.
+- Custom Workspace: Switch between front, side, perspective, and multiple viewport layouts.
+- Painting Tab: A dedicated workspace for painting
 ## How to run
 
 You only need Maya and the script. No project folders or extra Python packages are required.
