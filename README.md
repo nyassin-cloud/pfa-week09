@@ -1,12 +1,8 @@
 # Sketch Bloom — Week 09
 
-Sketch Bloom is an **in-app Python tool for Maya and Blender**, with shared geometry code and separate interfaces. It is not a standalone drawing application. OBJ export transfers polygon geometry to other software that can import OBJ; it does not provide native integrations for every 3D app.
+Sketch Bloom is an in-app Python tool for Maya and Blender, with shared geometry code and separate interfaces. It is not a standalone drawing application.
 
-Based on [my Week 8 Sketch Bloom project](https://github.com/nyassin-cloud/pfa-week08). This version was built from my supplied Week 8 script; the original is preserved in `reference/week08_maya_original.py`. The remote repository contents were not independently compared.
-
-**Repository:** [nyassin-cloud/pfa-week09](https://github.com/nyassin-cloud/pfa-week09). **Screen recording: pending recording and upload.** Host runtime tests and a fresh-clone launch still need to be completed before submission.
-
-## What it does
+What it does:
 
 Draw tubes, curves, and filled outlines; create silhouette presets and hollow teacup parts; edit geometry; combine or boolean-union parts; subdivide copies; and export selected polygon meshes to OBJ. Maya retains the Week 8 studio interface. Blender supplies a sidebar with native mesh/curve editing. The shared geometry module has no Maya, Blender, Qt, or third-party dependencies.
 
